@@ -7,14 +7,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: #a5afaa;
+  color: #476268;
   margin: 20px 0 10px 0;
   line-height: 29px;
   font-size: 36px;
   line-height: 48px;
   margin-bottom: 0;
   margin-top: 10px;
-  font-weight: 200;
+  font-weight: bold;
 }
 ul {
   margin: 0;
@@ -25,4 +25,22 @@ li {
   margin: 0;
   padding: 0;
   color: #b0b8b4;
+}
+.owerview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  color: #476268;
+  font-size: 60px;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -30px;
 }
