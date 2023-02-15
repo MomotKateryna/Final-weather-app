@@ -16,7 +16,7 @@ h1 {
   color: #476268;
   margin: 20px 0 10px 0;
   line-height: 29px;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 48px;
   margin-bottom: 0;
   margin-top: 10px;
@@ -31,6 +31,7 @@ li {
   margin: 0;
   padding: 0;
   color: #b0b8b4;
+  text-transform: capitalize;
 }
 .owerview {
   margin-bottom: 20px;
@@ -42,7 +43,7 @@ li {
 }
 .weather-temperature strong {
   color: #476268;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
 }
 .units {
