@@ -31,6 +31,8 @@ li {
   margin: 0;
   padding: 0;
   color: #b0b8b4;
+}
+li::first-letter {
   text-transform: capitalize;
 }
 .owerview {
