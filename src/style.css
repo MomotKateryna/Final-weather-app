@@ -53,3 +53,19 @@ li::first-letter {
   font-size: 16px;
   top: -30px;
 }
+#button {
+  background-color: #7fa99b;
+  border-color: #7fa99b;
+}
+#humidity {
+  color: #d56445;
+}
+#percent {
+  color: #d56445;
+}
+#km {
+  color: #d56445;
+}
+#wind {
+  color: #d56445;
+}
