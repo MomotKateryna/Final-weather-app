@@ -13,14 +13,14 @@
     "Arial", sans-serif;
 }
 h1 {
-  color: #476268;
-  margin: 20px 0 10px 0;
+  color: #276351;
+  margin: 30px 0 10px 0;
   line-height: 29px;
   font-size: 20px;
   line-height: 48px;
   margin-bottom: 0;
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 600;
 }
 ul {
   margin: 0;
@@ -55,7 +55,7 @@ li::first-letter {
 }
 #button {
   background-color: #7fa99b;
-  border-color: #7fa99b;
+  border: none;
 }
 #humidity {
   color: #d56445;
@@ -68,4 +68,26 @@ li::first-letter {
 }
 #wind {
   color: #d56445;
+}
+.link a {
+  color: #72988c;
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 18px;
+}
+.link {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
+#city-input {
+  border: none;
+}
+#fahrenheit-link {
+  color: #d56445;
+  text-decoration: none;
+}
+#celsius-link {
+  color: #395d65;
+  text-decoration: none;
 }
