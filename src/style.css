@@ -91,3 +91,19 @@ li::first-letter {
   color: #395d65;
   text-decoration: none;
 }
+.weather-forecast {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: #72988c;
+  font-weight: bold;
+}
+.weather-forecast-temperatures {
+  color: #b0b8b4;
+  font-size: 13px;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
+}
