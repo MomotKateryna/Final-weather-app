@@ -3,6 +3,7 @@
   margin: 30px auto;
   padding: 20px;
   border-radius: 8px;
+  background-image: url("16.png");
   background: rgb(245, 225, 218);
   background: linear-gradient(
     90deg,
@@ -92,7 +93,7 @@ li::first-letter {
   text-decoration: none;
 }
 .weather-forecast {
-  margin-bottom: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 .weather-forecast-date {
@@ -106,4 +107,7 @@ li::first-letter {
 }
 .weather-forecast-temperature-max {
   font-weight: bold;
+}
+#temperature {
+  font-size: 62px;
 }
