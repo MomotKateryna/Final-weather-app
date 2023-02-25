@@ -1,15 +1,9 @@
 .weather-app {
+  background-image: url("/src/23.jpg");
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
   border-radius: 8px;
-  background-image: url("16.png");
-  background: rgb(245, 225, 218);
-  background: linear-gradient(
-    90deg,
-    rgb(254, 239, 233) 0%,
-    rgb(253, 249, 249) 100%
-  );
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
@@ -17,15 +11,17 @@ h1 {
   color: #276351;
   margin: 30px 0 10px 0;
   line-height: 29px;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 48px;
   margin-bottom: 0;
   margin-top: 10px;
-  font-weight: 600;
+  font-weight: 400;
+  padding-bottom: 0px;
 }
 ul {
   margin: 0;
-  padding: 0;
+  padding-top: 15px;
+  padding-left: 0px;
 }
 li {
   list-style: none;
@@ -60,6 +56,7 @@ li::first-letter {
 }
 #humidity {
   color: #d56445;
+  padding-top: 20px;
 }
 #percent {
   color: #d56445;
@@ -110,4 +107,11 @@ li::first-letter {
 }
 #temperature {
   font-size: 62px;
+}
+#icon {
+  width: 100px;
+  height: 100px;
+}
+#last {
+  padding-top: 0px;
 }
